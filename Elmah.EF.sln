@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF", "Elmah.EF\Elmah.EF.csproj", "{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF6", "Elmah.EF6\Elmah.EF6.csproj", "{04B666E1-F7BD-44C0-A1E4-1E32231FE2C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF.Web", "Elmah.EF.Web\Elmah.EF.Web.csproj", "{DEF075E0-18CB-4D70-97C5-9E421328E08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF.Dashboard", "Elmah.EF.Dashboard\Elmah.EF.Dashboard.csproj", "{BF6E4703-F49A-47F4-A128-E422A6A7DEF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNet", "AspNet", "{F19AD93A-6CDF-4AA1-AFF2-949107177E2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{5A1226EB-B4F4-41BB-BF71-8863D303C20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF.AspNet.Mvc", "Elmah.EF.AspNet.Mvc\Elmah.EF.AspNet.Mvc.csproj", "{6124254E-0526-46A5-93F7-81CE5EA40551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.EF.AspNet.WebApi", "Elmah.EF.AspNet.WebApi\Elmah.EF.AspNet.WebApi.csproj", "{508BA622-574C-4EC5-BCB4-EF885EDBC02F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B666E1-F7BD-44C0-A1E4-1E32231FE2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B666E1-F7BD-44C0-A1E4-1E32231FE2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B666E1-F7BD-44C0-A1E4-1E32231FE2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B666E1-F7BD-44C0-A1E4-1E32231FE2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF075E0-18CB-4D70-97C5-9E421328E08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF075E0-18CB-4D70-97C5-9E421328E08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF075E0-18CB-4D70-97C5-9E421328E08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF075E0-18CB-4D70-97C5-9E421328E08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6E4703-F49A-47F4-A128-E422A6A7DEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6E4703-F49A-47F4-A128-E422A6A7DEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6E4703-F49A-47F4-A128-E422A6A7DEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6E4703-F49A-47F4-A128-E422A6A7DEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6124254E-0526-46A5-93F7-81CE5EA40551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6124254E-0526-46A5-93F7-81CE5EA40551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6124254E-0526-46A5-93F7-81CE5EA40551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6124254E-0526-46A5-93F7-81CE5EA40551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508BA622-574C-4EC5-BCB4-EF885EDBC02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508BA622-574C-4EC5-BCB4-EF885EDBC02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508BA622-574C-4EC5-BCB4-EF885EDBC02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508BA622-574C-4EC5-BCB4-EF885EDBC02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEF075E0-18CB-4D70-97C5-9E421328E08A} = {5A1226EB-B4F4-41BB-BF71-8863D303C20B}
+		{BF6E4703-F49A-47F4-A128-E422A6A7DEF7} = {5A1226EB-B4F4-41BB-BF71-8863D303C20B}
+		{6124254E-0526-46A5-93F7-81CE5EA40551} = {F19AD93A-6CDF-4AA1-AFF2-949107177E2D}
+		{508BA622-574C-4EC5-BCB4-EF885EDBC02F} = {F19AD93A-6CDF-4AA1-AFF2-949107177E2D}
+	EndGlobalSection
+EndGlobal

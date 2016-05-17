@@ -1,0 +1,24 @@
+{
+  "name": "Elmah EF Dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "authors": [
+    "Sergio Moreno"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.5",
+    "angular-i18n": "*",
+    "angular-ui-router": "*",
+    "angular-local-storage": "*",
+    "angular-animate": "*",
+    "angular-resource": "*"
+  }
+}
