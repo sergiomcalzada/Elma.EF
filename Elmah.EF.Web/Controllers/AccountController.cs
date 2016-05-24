@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using Elmah.EF.Web.Models;
 using Elmah.EF.Web.Providers;
 using Elmah.EF.Web.Results;
+using Elmah.EF6;
 
 namespace Elmah.EF.Web.Controllers
 {
@@ -373,6 +374,19 @@ namespace Elmah.EF.Web.Controllers
             return Ok();
         }
 
+
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<IHttpActionResult> EntityValidationError()
+        {
+            using (var ctx = new ElmahContext())
+            {
+                ctx.ElmahErrors.Add(new ElmahError());
+                await ctx.SaveChangesAsync();
+            }
+            return this.Ok();
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && _userManager != null)
@@ -383,6 +397,8 @@ namespace Elmah.EF.Web.Controllers
 
             base.Dispose(disposing);
         }
+
+
 
         #region Helpers
 

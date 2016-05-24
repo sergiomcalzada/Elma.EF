@@ -291,9 +291,21 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elmah.EF.AspNet.Mvc\Elmah.EF.AspNet.Mvc.csproj">
+      <Project>{6124254E-0526-46A5-93F7-81CE5EA40551}</Project>
+      <Name>Elmah.EF.AspNet.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elmah.EF.AspNet.WebApi\Elmah.EF.AspNet.WebApi.csproj">
+      <Project>{508BA622-574C-4EC5-BCB4-EF885EDBC02F}</Project>
+      <Name>Elmah.EF.AspNet.WebApi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elmah.EF6\Elmah.EF6.csproj">
       <Project>{04b666e1-f7bd-44c0-a1e4-1e32231fe2c2}</Project>
       <Name>Elmah.EF6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elmah.EF\Elmah.EF.csproj">
+      <Project>{EC6CB9C2-E626-4B43-9ECF-F0B3DBC30524}</Project>
+      <Name>Elmah.EF</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
+using Elmah.EF6;
 
 namespace Elmah.EF.Web.Controllers
 {
@@ -15,6 +16,15 @@ namespace Elmah.EF.Web.Controllers
         public ActionResult Error()
         {
             throw new NotImplementedException();
+        }
+        public ActionResult EntityValidationError()
+        {
+            using (var ctx = new ElmahContext())
+            {
+                ctx.ElmahErrors.Add(new ElmahError());
+                ctx.SaveChanges();
+            }
+            return this.View();
         }
     }
 }
